@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background: navy;
+    color: goldenrod;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: black;
+    color: red;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.score {
+    display: flex; 
+    margin: 10px 0px;   
+}
+
+.score > p {
+    border: solid 1px goldenrod;
+    margin: 3px;
+    padding: 2px;
+    font-size: small;
+}
+
+#reset-button {
+    text-align: center;
+}
+
+#reset {
+    background: black;
+    color: yellowgreen;
+    display: inline;
+}
+
+#buttons button{
+    background: navy;
+    color: gold;
+    width: 30px;
+}

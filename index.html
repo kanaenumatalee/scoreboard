@@ -1,0 +1,35 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h2>TEAM 1</h2>
+                <div class="num" id="num1">0</div>
+                <div class="score">
+                    <div id="buttons">
+                        <button onclick="addOne(num1)">+1</button>
+                        <button onclick="addTwo(num1)">+2</button>
+                        <button onclick="addThree(num1)">+3</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2>TEAM 2</h2>
+                <div class="num" id="num2">0</div>
+                <div class="score">
+                    <div id="buttons">
+                        <button onclick="addOne(num2)">+1</button>
+                        <button onclick="addTwo(num2)">+2</button>
+                        <button onclick="addThree(num2)">+3</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="reset-button">
+            <button id="reset" onclick="reset()">RESET</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
